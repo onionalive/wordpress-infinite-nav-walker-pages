@@ -1,7 +1,7 @@
 <?php
 
 // Extending Walker_Nav_Menu
-class xyz_Mobile_Menu extends Walker_Nav_Menu {
+class xyz_Custom_Menu extends Walker_Nav_Menu {
 	
 	// start_el defines the start of the element being rendered
 	// In this case, the element being the top level nav item & all children
