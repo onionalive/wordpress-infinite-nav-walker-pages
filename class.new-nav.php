@@ -125,5 +125,4 @@ class xyz_Custom_Menu extends Walker_Nav_Menu {
   }
 }
 
-
 ?>
