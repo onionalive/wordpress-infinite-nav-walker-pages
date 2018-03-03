@@ -3,7 +3,7 @@ A simple custom nav walker that will grab only the top level elements of a nav a
 
 ## Explanation
 
-What does this custom nav walker do? In wordpress, you can create a custom menu in Admin -> Appereance -> Menus. You can also give pages parents. This attempts to combine these features in a functional navigation menu.
+What does this custom nav walker do? In wordpress, you can create a custom menu of pages in Admin -> Appereance -> Menus. You can also give pages parents. This attempts to combine these features in a functional navigation menu.
 
 This will grab ONLY the top level menu items set in Appereance -> menus (and ignore all sub menu items). It will then search each item for `child pages`, each of those `child pages` for their own `child pages`, etc. until there are no more children to show. 
 
